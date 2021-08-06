@@ -34,9 +34,7 @@ final class GameManager: ObservableObject {
         default:
             break
         }
-        
-        let text = "\(sliderValue)\n\(hotColdText)"
-        
-        return text
+
+        return "\(sliderValue)\n\(hotColdText)"
     }
 }
